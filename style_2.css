@@ -450,9 +450,9 @@
     padding: 1px 3rem;
     transition: 0.3s ease-in-out;
 
-    /* backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     background-color: #c4c4c48e;
-    position: sticky; */
+    position: sticky;
   }
   #navbar{
     top: 0;
@@ -679,7 +679,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .credb{
-  /* background-color:var(--bkg-colr); */
+  background-color:var(--bkg-colr);
   color:var(--fnt-colr);
   cursor: pointer;
   padding: 18px;
@@ -695,9 +695,9 @@ body::-webkit-scrollbar-thumb:hover {
   padding-top: 0px;
   
 }
-/* .nii{
+.nii{
   background-color: var(--bkg-colr) ;
-}  */
+} 
 
 .crec{
   width: 100%;
@@ -812,7 +812,7 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: var(--msk-colr); */
+  background: var(--msk-colr);
   animation: slide-out-container 4s cubic-bezier(0.97, 0.01, 0.36, 0.99) 2.8s;
   animation-fill-mode: forwards;
   position: fixed;
@@ -1733,7 +1733,7 @@ display: none;
 .s2 {
   min-height: fit-content;
   height: fit-content;
-  /* background-color:var(--bkg-colr); */
+  background-color:var(--bkg-colr);
 }
 
 
