@@ -32,8 +32,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
-
-
+<link rel="stylesheet" href="pop.css" />
+<script src="main.js"></script>
 </span>
 
 
@@ -56,17 +56,6 @@
  
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW100YW4T"></script>
 <script>
-  const popup = document.getElementById('popup');
-  
-  const openPopup = () => {
-    popup.classList.add('open-popup');
-  };
-  
-  const closePopup = () => {
-    popup.classList.remove('open-popup');
-  };
-  
-  window.dataLayer = window.dataLayer || [];
   
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -771,6 +760,21 @@
     defer>
 </script> -->
 <script>
+
+
+  const popup = document.getElementById('popup');
+  
+  const openPopup = () => {
+    popup.classList.add('open-popup');
+  };
+  
+  const closePopup = () => {
+    popup.classList.remove('open-popup');
+  };
+  
+  window.dataLayer = window.dataLayer || [];
+
+  
   var isMobile = false; //initiate as false
 // device detection
 if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
