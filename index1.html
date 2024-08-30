@@ -680,10 +680,10 @@
         <i class="fa fa-facebook" aria-hidden="true"></i> 
       </a> -->
 
-      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=" target="_blank">
+      <a href="#" id="mail-link-1" target="_blank">
         <span class="screen-reader-text">Email</span>
-        <i class="fa fa-envelope"   aria-hidden="true"></i> 
-      </a>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
       <a target="_blank" href="https://www.linkedin.com/in/sairam-eee-5300471b0/">
         <span class="screen-reader-text">LinkedIn</span>
         <i class="fa fa-linkedin " aria-hidden="true"></i> 
@@ -930,6 +930,30 @@ $(document).ready(function(){
 
 
 <script> 
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var mailLink = document.getElementById("mail-link-1");
+    mailLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        // Construct mailto URL
+        var to = "fluxera.eee@gmail.com";
+        var subject = "Your Subject Here"; // You can customize the subject
+        var body = "Name: " + "\n" +
+                   "Email: " + "\n" +
+                   "Phone: " + "\n" +
+                   "Subject: " + "\n" +
+                   "Message: ";
+
+        var mailToUrl = "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=" + encodeURIComponent(to) +
+                        "&su=" + encodeURIComponent(subject) +
+                        "&body=" + encodeURIComponent(body);
+
+        // Open Gmail with the pre-filled email in a new tab
+        window.open(mailToUrl, "_blank");
+    });
+});
+
+  
 
   function cls_b(){
     
