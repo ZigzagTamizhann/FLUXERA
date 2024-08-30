@@ -56,6 +56,16 @@
  
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW100YW4T"></script>
 <script>
+  const popup = document.getElementById('popup');
+  
+  const openPopup = () => {
+    popup.classList.add('open-popup');
+  };
+  
+  const closePopup = () => {
+    popup.classList.remove('open-popup');
+  };
+  
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
