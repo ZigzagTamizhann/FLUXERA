@@ -1,4 +1,8 @@
 
+document.getElementById('icon').addEventListener('click', function() {
+            alert('Icon clicked!');
+        });
+
 document.addEventListener("DOMContentLoaded", function() {
     const popup = document.getElementById('popup');
     const phoneLink = document.getElementById('phone-link');
