@@ -1001,7 +1001,7 @@ font-size: 32px;
 }
 
 .last_pa {  
-  bottom: 20%;
+/*   bottom: 20%; */
   height: 1.6em;
   width: 100%;
   position: absolute;
