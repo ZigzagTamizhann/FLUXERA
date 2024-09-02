@@ -2623,7 +2623,8 @@ transform: translate(-50%,-50%);
 }
 
 #icon {
-            cursor: pointer;
+  color:white;
+  cursor: pointer;
         }
 
 
