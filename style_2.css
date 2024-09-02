@@ -2622,6 +2622,12 @@ transform: translate(-50%,-50%);
   border-radius: 10px; /* Optional: Rounds the corners of the content box */
 }
 
+#icon {
+            font-size: 50px;
+            cursor: pointer;
+            margin: 20px;
+        }
+
 
 /* .card1 {
   width: 100px;
