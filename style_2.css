@@ -1001,7 +1001,7 @@ font-size: 32px;
 }
 
 .last_pa {  
-/*   bottom: 20%; */
+  bottom: 20%;
   height: 1.6em;
   width: 100%;
   position: absolute;
@@ -1107,7 +1107,6 @@ font-size: 32px;
   padding-top: 7.9px;
   padding-bottom: 7.9px;
   mix-blend-mode: difference;
-  
   display: flex;
 }
 .csc_l {
