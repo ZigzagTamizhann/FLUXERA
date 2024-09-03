@@ -2627,7 +2627,7 @@ transform: translate(-50%,-50%);
 }
 
 #icon {
-  color:white;
+/*   color:white; */
   cursor: pointer;
         }
 
