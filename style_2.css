@@ -1884,6 +1884,11 @@ display: none;
       margin-right: 10vw;
 }
 
+@media only screen and (max-width: 640px) {
+  #spoo{
+    margin-left: 0;
+  }
+
 @media only screen and (max-width: 768px) {
   #spoo{
     margin-left: 0;
